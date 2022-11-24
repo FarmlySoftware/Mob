@@ -1,2 +1,2 @@
-# Farmly-Website-
-Contributed by Zitharth and Shyam 
+# Farmly
+Farmly website
