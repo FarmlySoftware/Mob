@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,20 +19,29 @@
     <script src="contact.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="1.css">
+    <link href="style1.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
 </head>
 
 <body>
-    <div id="navbarfarmly">
-        <nav class="navbar navbar-expand-lg fixed-top">
+    
+    <div class="header-part fixed-top">
+ 
+    <div class="-part" id="navbarfarmly">
+        <nav class="navbar navbar-expand-lg">
+            <!-- fixed-top -->
+
             <div class="container-fluid">
+
+               <a class="navbar-brand logo-part" href="#"><img src="assets/Farmly-Logo-Final.png" alt="logo"></a>
+
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"><span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span></button>
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <a class="navbar-brand-mt-2-mt-lg-0" href="#"> </a>
                     <ul class="navbar-nav ms-auto farmnav">
-                        <li class="nav-item">
-                            <img src="assets/Farmly-Logo-Final.png" alt="">
-                        </li>
+
                         <li class="nav-item">
                             <a class="nav-link" id="one" href="#Who we are?">WHO WE ARE?</a>
                         </li>
@@ -50,17 +60,24 @@
                             <a class="nav-link" id="five" href="#Behind the scene">BEHIND THE SCENE</a>
                         </li>
                         
-                        <li class="nav-item">
-                            <a class="btn btn-primary btn-sm one" href="#How to reach us?"><p>CONTACT US</p></a>
+                        <li class="nav-item contact-us-btn">
+                            <a class="btn btn-primary btn-sm one" href="#How to reach us?">CONTACT US</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item book-a-call">
                             <a class="btn btn-primary btn-sm one" href="https://calendly.com/farmlysoftware" target="_blank">BOOK A CALL</a>
                         </li>
                     </ul>
                 </div>
+            
             </div>
+
         </nav>
     </div>
+
+
+</div>
+
+
     
     <div id="Who we are?" class="whoweare">
         <img src="assets\1.png"></img> 
@@ -72,69 +89,55 @@
 
         <div class="middiv">
             <div class="middiv1">
-                <div id="demo" class="carousel slide" data-bs-ride="carousel"> 
-
-                    <ol class="carousel-indicators">
-                        <li class="active pointers" data-bs-target="#demo" data-bs-slide-to="0"></li> 
-                        <li class="pointers" data-bs-target="#demo" data-bs-slide-to="1"></li>
-                        <li class="pointers" data-bs-target="#demo" data-bs-slide-to="2"></li>
-                        <li class="pointers" data-bs-target="#demo" data-bs-slide-to="3"></li>
-                    </ol>
-                    
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="assets\2.png" class="d-block">
-                      </div>
-
-                      <div class="carousel-item">
-                        <img src="assets\1.png" class="d-block">
-                      </div>
-
-                      <div class="carousel-item">
-                        <img src="assets\2.png" class="d-block">
-                      </div>
-                      
-                      <div class="carousel-item">
-                        <img src="assets\1.png" class="d-block">
-                      </div>
+                <div class="imgmover">
+                    <div class="imagediv" style="--delay:0;">
+                        <img src="assets/2.png" alt="">
                     </div>
-
-                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon"></span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                      <span class="carousel-control-next-icon"></span>
-                    </button>
-                    <div class="grad"></div>
+                    <div class="imagediv" style="--delay:-1;">
+                        <img src="assets/1.png" alt="">
+                    </div>
+                    <div class="imagediv" style="--delay:-2;">
+                        <img src="assets/2.png" alt="">
+                    </div>
+                    <div class="imagediv" style="--delay:-3;">
+                        <img src="assets/1.png" alt="">
+                    </div>
                 </div>
             </div>
 
             <div class="middiv2">
-                <div id="demo2" class="carousel slide" data-bs-ride="carousel"> 
+                <div id="demo2" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000"> 
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         - WHAT WE DO? 
-                        <p>We create effortless solutions that help traditiional business to grow their business and delight their customers We power your processes, sorting and ordering your information so every element of your business is profitable. Solutions for service transformation provide an integrated strategy to help businesses achieve scalable, digital, and future-ready operations.
-Our products combine people, process, and technology levers to minimise total cost of ownership while generating quick returns on investments. </p> 
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam sed nibh convallis duis non tortor sed luctus quis. Ut nibh purus ultrices nisi. Magnis sapien, enim, semper pharetra amet eget condimentum nisl, aliquam. Gravida sed enim, diam varius donec molestie libero.
+                        Tristique dictum cursus sed dolor. Eget dui pharetra, cras at nisl, fames eget suspendisse.</p> 
                       </div>
 
                       <div class="carousel-item">
                         - WHAT WE DO? 
-                          <p> Our team is made up of forward thinking farmers, coders, data scientist, finance innovators and creatives who believe in a better future for rural communities.Our business ensures that the customer experience is the differentiator, and this is done consciously and strategically.
-Businesses that are focused on their customers connect the business and human sides of the narrative. </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam sed nibh convallis duis non tortor sed luctus quis. Ut nibh purus ultrices nisi. Magnis sapien, enim, semper pharetra amet eget condimentum nisl, aliquam. Gravida sed enim, diam varius donec molestie libero.
+                            Tristique dictum cursus sed dolor. Eget dui pharetra, cras at nisl, fames eget suspendisse.</p> 
                       </div>
 
                       <div class="carousel-item">
                         - WHAT WE DO? 
-                        <p>Customized data storage and cloud solutions for businesses ranging from start-up to enterprise-level, wherever you choose to build. To stay relevant in the ever evolving economy, businesses must listen, collaborate, and innovate.
-Adopting cutting-edge technology that can displace legacy systems and support firms' current digital needs is also necessary. </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam sed nibh convallis duis non tortor sed luctus quis. Ut nibh purus ultrices nisi. Magnis sapien, enim, semper pharetra amet eget condimentum nisl, aliquam. Gravida sed enim, diam varius donec molestie libero.
+                        Tristique dictum cursus sed dolor. Eget dui pharetra, cras at nisl, fames eget suspendisse.</p>
                       </div>
                       
                       <div class="carousel-item">
                         - WHAT WE DO? 
-                          <p>Learn how to make the most of your cloud- and data-driven solutions with expertly-designed, focused training packages. We blend infrastructure management, applications management, emerging technologies, and security services to deliver operational transformation and keep organisations ahead of the digital evolution curve through integrated IT operations using a "automate-first" strategy, persona-based user journeys, and onboarding our best practises.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam sed nibh convallis duis non tortor sed luctus quis. Ut nibh purus ultrices nisi. Magnis sapien, enim, semper pharetra amet eget condimentum nisl, aliquam. Gravida sed enim, diam varius donec molestie libero.
+                            Tristique dictum cursus sed dolor. Eget dui pharetra, cras at nisl, fames eget suspendisse.</p> 
                       </div>
                     </div>
+                    <ol class="carousel-indicators">
+                        <li class="active pointers" data-bs-target="#demo2" data-bs-slide-to="0"></li> 
+                        <li class="pointers" data-bs-target="#demo2" data-bs-slide-to="1"></li>
+                        <li class="pointers" data-bs-target="#demo2" data-bs-slide-to="2"></li>
+                        <li class="pointers" data-bs-target="#demo2" data-bs-slide-to="3"></li>
+                    </ol>
                 </div>
             </div>
         </div>
@@ -143,7 +146,7 @@ Adopting cutting-edge technology that can displace legacy systems and support fi
     <div id="How we do?" class="howwedo">
         <div class="leftone">
             <div class="leftdiv">HOW WE DO ?</div>
-            <p>The experts at Farmly Software can provide you with personalized attention and keep in touch with you on a regular basis. We guarantee that you are consistently receiving the finest solutions and support for your company. Your IT infrastructure is analyzed by specialists who understand it. We then provide cost-effective answers that are designed especially for your company.</p>
+            <p>Tristique dictum cursus sed dolor. Eget dui pharetra, cras at nisl, fames eget suspendisse.</p>
         </div>
             
         <div class="rightone">
@@ -151,15 +154,15 @@ Adopting cutting-edge technology that can displace legacy systems and support fi
                 <div data-aos="fade-up" class="lean"  id="box1">
                     <div class="inlean">
                         <img src="assets/icon.png" id="img1"></img>
-                        <div class="heading" id="head1">Cloud services </div>
-                        <p>The cloud is a managed service, but it isn’t managing itself. Our integrated approach to cloud data management and storage helps you get the day-to-day tasks right and take charge.</p>
+                        <div class="heading" id="head1">Lean</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sapien egestas.</p>
                     </div>
                 </div>
                 <div data-aos="fade-up" class="lean" id="box2">
                     <div class="inlean">    
                         <img src="assets/icon.png" id="img2"></img>
-                        <div class="heading" id="head2"> IT Outsourcing</div>
-                        <p>We have certified IT professionals that are dedicated to delivering exceptional customer support via their cutting-edge tools and solutions.</p>
+                        <div class="heading" id="head2">Lean</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sapien egestas.</p>
                     </div>
                 </div>
             </div>    
@@ -167,15 +170,15 @@ Adopting cutting-edge technology that can displace legacy systems and support fi
                 <div data-aos="fade-up" class="lean" id="box3">
                     <div class="inlean">
                         <img src="assets/icon.png" id="img3"></img>
-                        <div class="heading" id="head3">Infrastructure Projects</div>
-                        <p>We deal with corporate high-quality infrastructure, best practice tools and processes, as well as wise IT advice, they provide value-driven IT solutions.</p>
+                        <div class="heading" id="head3">Lean</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sapien egestas.</p>
                     </div>
                 </div>
                 <div data-aos="fade-up" class="lean" id="box4">
                     <div class="inlean">
                         <img src="assets/icon.png" id="img4"></img>
-                        <div class="heading" id="head4">IT Strategy</div>
-                        <p>We understand the value of being able to work, particularly during business hours, and will assist you in removing any roadblocks so you may focus on your business and see it grow.</p>
+                        <div class="heading" id="head4">Lean</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sapien egestas.</p>
                     </div>
                 </div>
             
@@ -187,46 +190,110 @@ Adopting cutting-edge technology that can displace legacy systems and support fi
         <div class="topdiv">WHY US ?</div>
         <div class="middiv">
             <div class="l1">
-                <div class="grad1"></div>
-                <img src="assets/Whyusimg.png">
-                <p>Prioritize what’s most important to your business and your people so you can see, share and take action in real time. Turn performance into profit with a deeper understanding of user and application behavior.</p>
+                <div class="icondata" style="--delay:0;">
+                    <img src="assets/Whyusimg.png">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget diam vulputate mus malesuada eget vitae. Morbi vitae, erat curabitur augue pellentesque. Vel tellus diam nisl adipiscing quis orci, neque sagittis metus. Eget tortor euismod gravida.</p>
+                </div>
+                <div class="icondata" style="--delay:-1;">
+                    <img src="assets/1.png">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget diam vulputate mus malesuada eget vitae. Morbi vitae, erat curabitur augue pellentesque. Vel tellus diam nisl adipiscing quis orci, neque sagittis metus. Eget tortor euismod gravida.</p>
+                </div>
+                <div class="icondata" style="--delay:-2;">
+                    <img src="assets/2.png">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget diam vulputate mus malesuada eget vitae. Morbi vitae, erat curabitur augue pellentesque. Vel tellus diam nisl adipiscing quis orci, neque sagittis metus. Eget tortor euismod gravida.</p>
+                </div>
+                <div class="icondata" style="--delay:-3;">
+                    <img src="assets/Whyusimg.png">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget diam vulputate mus malesuada eget vitae. Morbi vitae, erat curabitur augue pellentesque. Vel tellus diam nisl adipiscing quis orci, neque sagittis metus. Eget tortor euismod gravida.</p>
+                </div>
+                <div class="icondata" style="--delay:-4;">
+                    <img src="assets/1.png">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget diam vulputate mus malesuada eget vitae. Morbi vitae, erat curabitur augue pellentesque. Vel tellus diam nisl adipiscing quis orci, neque sagittis metus. Eget tortor euismod gravida.</p>
+                </div>
+                <div class="icondata" style="--delay:-5;">
+                    <img src="assets/2.png">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget diam vulputate mus malesuada eget vitae. Morbi vitae, erat curabitur augue pellentesque. Vel tellus diam nisl adipiscing quis orci, neque sagittis metus. Eget tortor euismod gravida.</p>
+                </div>
             </div>
-            
 
-            <div id="iconbox" class="l2">
-                <div class="l22">
-                    <div class="circle-left" id="circleleft">
-                        <div id="i1" class="circle-left-top icon">
-                            <img src="assets\icon.png"></img>
-                            <p>On Time Delivery</p>
-                        </div>
-                        <div id="i2" class="circle-left-bottom icon">
-                            <img src="assets\icon6.png"></img>
-                            <p>Quality</p>
-                        </div>
-                    </div>
-                    <div class="circle-middle" id="circlemiddle">
-                        <div id="i3" class="circle-middle-top icon">
-                            <img src="assets\icon2.png"></img>
-                            <p>Collabration</p>
-                        </div>
-                        <div id="i4" class="circle-middle-bottom icon">
-                            <img src="assets\icon5.png"></img>
-                            <p>Security</p>
-                        </div>
-                    </div>
-                    <div class="circle-right" id="circleright">
-                        <div id="i5" class="circle-right-top icon">
-                            <img src="assets\icon3.png"></img>
-                            <p>Research & Development</p>
-                        </div>
-                        <div id="i6" class="circle-right-bottom icon">
-                            <img src="assets\icon4.png"></img>
-                            <p>Innovation</p>
-                        </div>
-                    </div>
-                </div>    
+            <div class="iconbox iconbox-desktop">
+                <div class="icon" style="--delay:0;">
+                    <img src="assets\icon.png"></img>
+                    <p>On Time Delivery</p>
+                </div>
+                <div class="icon" style="--delay:-1;">
+                    <img src="assets\icon2.png"></img>
+                    <p>Collabration</p>
+                </div>
+                <div class="icon" style="--delay:-2;">
+                    <img src="assets\icon3.png"></img>
+                    <p>Research & Development</p>
+                </div>
+                <div class="icon" style="--delay:-3;">
+                    <img src="assets\icon4.png"></img>
+                    <p>Innovation</p>
+                </div>
+                <div class="icon" style="--delay:-4;">
+                    <img src="assets\icon5.png"></img>
+                    <p>Security</p>
+                </div>
+                <div class="icon" style="--delay:-5;">
+                    <img src="assets\icon6.png"></img>
+                    <p>Quality</p>
+                </div>
             </div>
+
+
+
+
+            <div class="iconbox-mobile">
+                <div class="icon-mobile">
+                    <div class="why-us-img"><img src="assets\icon.png"></div>
+                    <div class="why-us-content">
+                        <h5>On Time Delivery</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget egestas sem. Donec vestibulum nunc eget magna finibus, et cursus ipsum posuere. Vestibulum dapibus sagittis rutrum. Etiam cursus purus sollicitudin maximus iaculis.</p>
+                    </div>
+                </div>
+                <div class="icon-mobile">
+                    <div class="why-us-img"><img src="assets\icon2.png"></div>
+                    <div class="why-us-content">
+                        <h5>Collabration</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget egestas sem. Donec vestibulum nunc eget magna finibus, et cursus ipsum posuere. Vestibulum dapibus sagittis rutrum. Etiam cursus purus sollicitudin maximus iaculis.</p>
+                    </div>
+                </div>
+                <div class="icon-mobile">
+                    <div class="why-us-img"><img src="assets\icon3.png"></div>
+                    <div class="why-us-content">
+                        <h5>Research & Development</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget egestas sem. Donec vestibulum nunc eget magna finibus, et cursus ipsum posuere. Vestibulum dapibus sagittis rutrum. Etiam cursus purus sollicitudin maximus iaculis.</p>
+                    </div>
+                </div>
+                <div class="icon-mobile">
+                    <div class="why-us-img"><img src="assets\icon4.png"></div>
+                    <div class="why-us-content">
+                        <h5>Innovation</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget egestas sem. Donec vestibulum nunc eget magna finibus, et cursus ipsum posuere. Vestibulum dapibus sagittis rutrum. Etiam cursus purus sollicitudin maximus iaculis.</p>
+                    </div>
+                </div>
+                <div class="icon-mobile">
+                    <div class="why-us-img"><img src="assets\icon5.png"></div>
+                    <div class="why-us-content">
+                        <h5>Security</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget egestas sem. Donec vestibulum nunc eget magna finibus, et cursus ipsum posuere. Vestibulum dapibus sagittis rutrum. Etiam cursus purus sollicitudin maximus iaculis.</p>
+                    </div>
+                </div>
+                <div class="icon-mobile" style="margin-bottom: 0px !important">
+                    <div class="why-us-img"><img src="assets\icon6.png"></div>
+                    <div class="why-us-content">
+                        <h5>Quality</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget egestas sem. Donec vestibulum nunc eget magna finibus, et cursus ipsum posuere. Vestibulum dapibus sagittis rutrum. Etiam cursus purus sollicitudin maximus iaculis.</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
         </div>
     </div> 
     
@@ -239,32 +306,36 @@ Adopting cutting-edge technology that can displace legacy systems and support fi
                       <div class="carousel-item active">
                         <img src="assets/testimonialimg.png" class="d-block">
                         <div class="info">
-                            -Veerasenan Narasimhan, Maasaathuvaan Mercantile Pvt Ltd 
-                            <p>We have had the pleasure of working with Dinesh, Joni  and the team at Farmly Software for about a year and they make it easy for us to do our job by providing personalised and prompt attention to the myriad issues encountered in migrating to the cloud. Whenever we have an issue, I know a solution is only a phonecall or email away.</p>   
+                            <h4>- WHAT WE DO?</h4> 
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam sed nibh convallis duis non tortor sed luctus quis. Ut nibh purus ultrices nisi. Magnis sapien, enim, semper pharetra amet eget condimentum nisl, aliquam. Gravida sed enim, diam varius donec molestie libero.
+                            Tristique dictum cursus sed dolor. Eget dui pharetra, cras at nisl, fames eget suspendisse.</p>   
                         </div>
                       </div>
 
                       <div class="carousel-item">
                         <img src="assets/testimonialimg.png" class="d-block">
                         <div class="info">
-                            - Dr.Sethuraja, GL Multi speciality Hospital  
-                            <p> One word to describe Farmly Software, Outstanding!! And reliable In each and every way. They say what they are going to do….. and do it!! Dinesh and his team allowed me to navigate around all the IT pitfalls with setting up a new business and had every aspect of my communications systems in place for me to open on time, without delay. I would recommend Farmly software to anyone with these needs. Dinesh is an absolute gentleman and can troubleshoot any problem with precision. Absolutely first class!!!! </p>
+                            <h4>- WHAT WE DO?</h4> 
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam sed nibh convallis duis non tortor sed luctus quis. Ut nibh purus ultrices nisi. Magnis sapien, enim, semper pharetra amet eget condimentum nisl, aliquam. Gravida sed enim, diam varius donec molestie libero.
+                            Tristique dictum cursus sed dolor. Eget dui pharetra, cras at nisl, fames eget suspendisse.</p>   
                         </div>
                       </div>
 
                       <div class="carousel-item">
                         <img src="assets/testimonialimg.png" class="d-block">
                         <div class="info">
-                            - Dr. Daniel, Madurai
-                            <p> Dealing with Farmly for our businesses new data/database server was a pleasure. They helped us choose the correct server for our needs and was still reasonable price. With that said they don't just sell you a sever and leave you to your own devices, they will install it and make sure it is all running smoothly before they sign off on it. We also took out there monthly server maintenance and security package and compared to other companies that I got quotes from this was the most inclusive with anti-virus and network security software along with server maintenance and upkeep while being the best price. It was an pleasure and still is dealing with Farmly software and highly recommended.</p>
+                            <h4>- WHAT WE DO?</h4> 
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam sed nibh convallis duis non tortor sed luctus quis. Ut nibh purus ultrices nisi. Magnis sapien, enim, semper pharetra amet eget condimentum nisl, aliquam. Gravida sed enim, diam varius donec molestie libero.
+                            Tristique dictum cursus sed dolor. Eget dui pharetra, cras at nisl, fames eget suspendisse.</p>   
                         </div>
                       </div>
                       
                       <div class="carousel-item">
                         <img src="assets/testimonialimg.png" class="d-block">
                         <div class="info">
-                            - Hari Krishnan ,ReVolt charging station
-                            <p>Karthik and his team are amazing, the have been integral in upgrading all our IT systems. The whole team is so knowledgeable, and their service service response is extremely fast. We could not ask for any better IT assistance for our business.Great support and prompt service. ReVolt has many clients in common with Farmly Software and feel comfortable knowing they will be well maintained and supported.</p>   
+                            <h4>- WHAT WE DO?</h4> 
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam sed nibh convallis duis non tortor sed luctus quis. Ut nibh purus ultrices nisi. Magnis sapien, enim, semper pharetra amet eget condimentum nisl, aliquam. Gravida sed enim, diam varius donec molestie libero.
+                            Tristique dictum cursus sed dolor. Eget dui pharetra, cras at nisl, fames eget suspendisse.</p>   
                         </div>
                       </div>
                     </div>
@@ -290,9 +361,9 @@ Adopting cutting-edge technology that can displace legacy systems and support fi
                 </div>
                 <div class="dat" id="di0">
                     <div class="data" id="d0">
-                        <h4><b>Joni Leon</b></h4>
-                      
-                        <p>IT System Administrator Who has more than 3+ years of exerience in It System Management</p>
+                        <h4><b>Lorem ipsum</b></h4>
+                        <h6><b>Qualification</b></h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam sed nibh convallis duis non tortor sed luctus quis. Ut nibh purus ultrices nisi. Magnis sapien, enim,  </p>
                     </div>
                 </div>
             </div>
@@ -303,9 +374,8 @@ Adopting cutting-edge technology that can displace legacy systems and support fi
                 </div>
                 <div class="dat" id="di1">
                     <div class="data" id="d1">
-                        <h4><b>Vinoth Prakash</b></h4> 
-                        <h6>HR Manager</h6>
-                        <p>Vinoth is an engineering and MBA graduate, who has combined experience of 13 years in Car Manufacturing and Human resource management.</p>
+                        <h4><b>Lorem ipsum</b></h4> 
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam sed nibh convallis duis non tortor sed luctus quis. Ut nibh purus ultrices nisi. Magnis sapien, enim,  </p>
                     </div>
                 </div>
             </div>
@@ -316,9 +386,8 @@ Adopting cutting-edge technology that can displace legacy systems and support fi
                 </div>
                 <div class="dat" id="di2">
                     <div class="data" id="d2">
-                        <h4><b>Dinesh Saravanan</b></h4> 
-                         <h6>Managing Director</h6>
-                        <p>Dinesh is an engineering and MBA graduate. His 10+ years of experience in setting methods, standards, and quality means that nothing slips through the cracks at Farmly </p>  
+                        <h4><b>Lorem ipsum</b></h4> 
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam sed nibh convallis duis non tortor sed luctus quis. Ut nibh purus ultrices nisi. Magnis sapien, enim,</p>  
                     </div>
                 </div>
             </div>
@@ -329,9 +398,8 @@ Adopting cutting-edge technology that can displace legacy systems and support fi
                 </div>
                 <div class="dat" id="di3">
                     <div class="data" id="d3">
-                        <h4><b>Lavanya</b></h4> 
-                        <h6>Creative Head</h6>
-                        <p>Lavanya bootstrapped Farmly, a Chennai-based B2B lead generation company that has grown 3x in the last year and is poised to grow 5x this year. We have over 150+ happy clients and we are the go-to sales agency if you have a high-value product/service with a complex sales cycle</p>  
+                        <h4><b>Lorem ipsum</b></h4> 
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam sed nibh convallis duis non tortor sed luctus quis. Ut nibh purus ultrices nisi. Magnis sapien, enim,</p>  
                     </div>
                 </div>
             </div>
@@ -342,9 +410,8 @@ Adopting cutting-edge technology that can displace legacy systems and support fi
                 </div>
                 <div class="dat" id="di4">
                     <div class="data"id="d4">
-                        <h4><b>Gowtham</b></h4> 
-                        <h6>UI UX Designer</h6>
-                        <p>Gowtham is a freelance UI UX designer based in Chennai. He previously worked in development of iOS & Android apps for more than 2 years. </p> 
+                        <h4><b>Lorem ipsum</b></h4> 
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam sed nibh convallis duis non tortor sed luctus quis. Ut nibh purus ultrices nisi. Magnis sapien, enim, </p> 
                     </div>
                 </div>
             </div>
@@ -357,28 +424,28 @@ Adopting cutting-edge technology that can displace legacy systems and support fi
         <div class="middiv">
             <div class="contactus">
                 <div class="heading">CONTACT-US</div>
-                <p>Give us your details and we will reach you soon</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <div class="formbox">
                     <form id="contactusform" name="contactform" class="contform"  onsubmit="sendEmail(); reset(); return false">
                         
                         <div class="label">
                             <lable class="formlabel" for="name">Name</lable>
-                            <input type="text" class="form-control" name="name" id="name" required>
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Your name" required>
                         </div>
 
                         <div class="label">
                             <lable class="formlabel" for="email">Email Address</lable>
-                            <input type="text" class="form-control" name="email" id="email" required>
+                            <input type="text" class="form-control" name="email" id="email" placeholder="Your email address" required>
                         </div>
 
                         <div class="label">
                             <lable class="formlabel" for="pnum">Phone Number</lable>
-                            <input type="text" class="form-control" name="pnum" id="pnum" required>
+                            <input type="text" class="form-control" name="pnum" id="pnum" placeholder="Your phone number" required>
                         </div>
 
                         <div class="label">
                             <lable class="formlabel" for="msg">Message</lable>
-                            <textarea rows=3 class="form-control" name="msg" id="msg" required></textarea>
+                            <textarea rows=3 class="form-control" name="msg" id="msg" placeholder="Your Comments" required></textarea>
                         </div>
                         <button type="submit" value="SEND" class="send">SEND</button>
                     </form>
@@ -399,30 +466,34 @@ Adopting cutting-edge technology that can displace legacy systems and support fi
     
     
     <div class="footer">
+        <div class="foot-flex-mob">
         <div class="footerone">
-            <img src="assets/footer.png">
+            <img src="assets/Farmly-Logo-Final.png">
         </div>
         <div class="footertwo">
             <div class="ftone">
-                Get started with Farmly and get updates on cutting edge technology updates through our social media accounts.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </div>    
             <div class="fttwo">
-                <img src="assets/footerdot.png" alt="">
-                <img src="assets/footerdot.png" alt="">
-                <img src="assets/footerdot.png" alt="">
-                <img src="assets/footerdot.png" alt="">
-                <img src="assets/footerdot.png" alt="">
+                <img class="imgfirst" src="assets/footerdot.png" alt="">
+                <img class="imgrest" src="assets/footerdot.png" alt="">
+                <img class="imgrest" src="assets/footerdot.png" alt="">
+                <img class="imgrest" src="assets/footerdot.png" alt="">
+                <img class="imgrest" src="assets/footerdot.png" alt="">
             </div>
             <div class="ftthree">
                 <p>Subscribe to our newsletter</p>
-                <div class="ftthreebox">
-                    <input type="text" class="form-control">
-                    <button>SUBSCRIBE</button>
-                </div>
+                <form id="subscriptionform"  name="subsform" class="subsform"  onsubmit="subscriptionEmail(); reset(); return false">
+                    <div class="ftthreebox">
+                        <input id="subscriptionmail" type="text" class="form-control" placeholder="Loremipsum@example.com" required>
+                        <button type="submit" value="SEND" class="subscription">SUBSCRIBE</button>
+                    </div>
+                </form>
             </div>
             <div class="ftfour">
             </div>
         </div>
+    </div>
         
         <div class="footerthree">
             
@@ -437,15 +508,15 @@ Adopting cutting-edge technology that can displace legacy systems and support fi
                 <div class="middiv">
                     <div class="divi">
                         <p><a href="#Who we are?">Who we are ?</a></p>          
-                        <p><a href="#What we do?">What we do ?</a></p>          
+                        <p><a href="#What we do?">What we do ?</a></p>                         
                     </div>
                     <div class="divi">
-                        <p><a href="#How we do?">How we do ?</a></p>  
-                        <p><a href="#Why us?">Why us ?</a></p>          
+                        <p><a href="#Who we are?">Who we are ?</a></p>          
+                        <p><a href="#Why us?">Why us ?</a></p>
                     </div>
-                    <div class="divi dif">
+                    <div class="divi">                          
                         <p><a href="#Behind the scene">Behind the scence</a></p>          
-                        <p><a href="#">About us</a></p>
+                        <p><a href="#">About us</a></p>        
                     </div>
                 </div>
             </div>
@@ -458,4 +529,12 @@ Adopting cutting-edge technology that can displace legacy systems and support fi
     AOS.init();
 </script>
 <script src="animation.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('button.navbar-toggler').click(function(){
+        $('.collapse.navbar-collapse').toggleClass('show');
+         });
+    });
+</script>
 </html>
